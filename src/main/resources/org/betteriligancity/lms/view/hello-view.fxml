@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import org.kordamp.ikonli.javafx.FontIcon?>
+
+<VBox alignment="CENTER" prefHeight="740.0" prefWidth="1074.0" spacing="16.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.betteriligancity.lms.controller.HelloController">
+   <SplitPane dividerPositions="0.5" prefHeight="538.0" prefWidth="499.0" VBox.vgrow="ALWAYS">
+     <items>
+         <VBox fx:id="sidebar" alignment="CENTER_LEFT" maxHeight="1.7976931348623157E308" maxWidth="-Infinity" prefHeight="708.0" prefWidth="186.0" styleClass="sidepanel" stylesheets="@../css/main.css">
+            <children>
+               <HBox alignment="CENTER_LEFT" fillHeight="false" maxWidth="1.7976931348623157E308" prefHeight="0.0" prefWidth="157.0" spacing="12.0" stylesheets="@../css/main.css">
+                  <children>
+                     <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                        <image>
+                           <Image url="@../images/icons/layout-dashboard.png" />
+                        </image></ImageView>
+                     <Label text="Library">
+                        <font>
+                           <Font name="Anurati-Regular" size="18.0" />
+                        </font>
+                     </Label>
+                  </children>
+                  <padding>
+                     <Insets bottom="8.0" left="12.0" right="12.0" top="8.0" />
+                  </padding>
+               </HBox>
+               <ScrollPane fitToWidth="true" maxWidth="1.7976931348623157E308" prefHeight="624.0" prefWidth="292.0" VBox.vgrow="ALWAYS">
+                  <content>
+                     <VBox maxHeight="1.7976931348623157E308" prefHeight="200.0" prefWidth="100.0" spacing="6.0">
+                        <children>
+                           <HBox alignment="CENTER_LEFT" fillHeight="false" maxWidth="1.7976931348623157E308" prefHeight="0.0" prefWidth="157.0" spacing="12.0" styleClass="sidepanel-btn" stylesheets="@../css/main.css">
+                              <children>
+                                 <FontIcon iconLiteral="zondi-view-tile" iconSize="20">
+                                    <font>
+                                       <Font name="Material Icons" size="13.0" />
+                                    </font>
+                                 </FontIcon>
+                                 <Label text="Dashboard">
+                                    <font>
+                                       <Font size="14.0" />
+                                    </font>
+                                 </Label>
+                              </children>
+                              <padding>
+                                 <Insets bottom="8.0" left="12.0" right="12.0" top="8.0" />
+                              </padding>
+                           </HBox>
+                           <HBox alignment="CENTER_LEFT" fillHeight="false" maxWidth="1.7976931348623157E308" prefHeight="0.0" prefWidth="157.0" spacing="12.0" styleClass="sidepanel-btn" stylesheets="@../css/main.css">
+                              <children>
+                                 <FontIcon iconLiteral="zondi-book-reference" iconSize="20">
+                                    <font>
+                                       <Font name="Material Icons" size="13.0" />
+                                    </font></FontIcon>
+                                 <Label text="Book Catalog">
+                                    <font>
+                                       <Font size="14.0" />
+                                    </font>
+                                 </Label>
+                              </children>
+                              <padding>
+                                 <Insets bottom="8.0" left="12.0" right="12.0" top="8.0" />
+                              </padding>
+                           </HBox>
+                           <HBox alignment="CENTER_LEFT" fillHeight="false" maxWidth="1.7976931348623157E308" prefHeight="0.0" prefWidth="157.0" spacing="12.0" styleClass="sidepanel-btn" stylesheets="@../css/main.css">
+                              <children>
+                                 <FontIcon iconLiteral="zondi-user-group" iconSize="20" text="">
+                                    <font>
+                                       <Font name="Material Icons" size="13.0" />
+                                    </font>
+                                 </FontIcon>
+                                 <Label text="Authors">
+                                    <font>
+                                       <Font size="14.0" />
+                                    </font>
+                                 </Label>
+                              </children>
+                              <padding>
+                                 <Insets bottom="8.0" left="12.0" right="12.0" top="8.0" />
+                              </padding>
+                           </HBox>
+                           <HBox alignment="CENTER_LEFT" fillHeight="false" maxWidth="1.7976931348623157E308" prefHeight="0.0" prefWidth="157.0" spacing="12.0" styleClass="sidepanel-btn" stylesheets="@../css/main.css">
+                              <children>
+                                 <FontIcon iconLiteral="zondi-color-palette" iconSize="20">
+                                    <font>
+                                       <Font name="Material Icons" size="13.0" />
+                                    </font>
+                                 </FontIcon>
+                                 <Label text="Library">
+                                    <font>
+                                       <Font size="14.0" />
+                                    </font>
+                                 </Label>
+                              </children>
+                              <padding>
+                                 <Insets bottom="8.0" left="12.0" right="12.0" top="8.0" />
+                              </padding>
+                           </HBox>
+                        </children>
+                        <padding>
+                           <Insets bottom="12.0" top="12.0" />
+                        </padding>
+                     </VBox>
+                  </content>
+                  <VBox.margin>
+                     <Insets />
+                  </VBox.margin>
+               </ScrollPane>
+               <HBox maxWidth="1.7976931348623157E308" prefHeight="0.0" prefWidth="59.0">
+                  <children>
+                     <Label maxWidth="1.7976931348623157E308" prefHeight="0.0" prefWidth="148.0" text="Development Build" HBox.hgrow="ALWAYS">
+                        <font>
+                           <Font name="Anurati-Regular" size="14.0" />
+                        </font>
+                        <padding>
+                           <Insets bottom="8.0" left="12.0" right="12.0" top="8.0" />
+                        </padding>
+                     </Label>
+                  </children>
+               </HBox>
+            </children>
+            <padding>
+               <Insets left="16.0" right="16.0" />
+            </padding>
+         </VBox>
+         <VBox fx:id="sidebar1" alignment="TOP_CENTER" maxHeight="1.7976931348623157E308" prefHeight="708.0" prefWidth="440.0" stylesheets="@../css/main.css">
+            <children>
+               <HBox prefHeight="44.0" prefWidth="822.0" styleClass="navbar" VBox.vgrow="NEVER">
+                  <VBox.margin>
+                     <Insets left="16.0" right="16.0" />
+                  </VBox.margin>
+                  <padding>
+                     <Insets bottom="8.0" left="16.0" right="16.0" top="8.0" />
+                  </padding>
+               </HBox>
+            </children>
+         </VBox>
+     </items>
+   </SplitPane>
+   <padding>
+      <Insets bottom="16.0" left="16.0" right="16.0" top="16.0" />
+   </padding>
+</VBox>

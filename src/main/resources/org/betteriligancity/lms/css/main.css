@@ -1,0 +1,24 @@
+.navbar {
+    -fx-background-color: #161b22;
+    -fx-background-radius: 16px;
+}
+
+.sidepanel {
+    -fx-background-color: #161b22;
+    -fx-background-radius: 16px;
+}
+
+.sidepanel-btn {
+    -fx-background-color: #21262D;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-cursor: HAND;
+}
+
+.sidepanel-btn:hover {
+    -fx-background-color: #58A6FF;
+}
+
+.sidepanel-btn:hover .icon {
+    -fx-opacity: 0.7;
+}
